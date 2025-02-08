@@ -1,0 +1,14 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dancheg97.grpc-clicker",
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
+    }
+  },
+  "image": "python:3.13.1-slim",
+  "name": "Tutorial 1 Python Threading",
+  "postCreateCommand": "pip install -r requirements.txt"
+}
