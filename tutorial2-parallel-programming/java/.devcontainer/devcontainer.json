@@ -1,0 +1,14 @@
+{
+  "name": "2 - Java Parallel Programming Streams",
+  "image": "openjdk:25-jdk-slim",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "containerEnv": {
+    "JAVA_OPTS": "-Xmx16g"
+  }
+}
