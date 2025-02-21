@@ -1,0 +1,19 @@
+{
+  "image": "maven:3.9-eclipse-temurin-21",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vscjava.vscode-maven",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-java-dependency"
+      ]
+    }
+  },
+  "name": "Tutorial 3 Java RMI",
+  "features": {
+    "maven": "latest"
+  }
+}
