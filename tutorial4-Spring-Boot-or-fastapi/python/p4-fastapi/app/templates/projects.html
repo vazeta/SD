@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Projects List</title>
+</head>
+<body>
+    <h1>Projects</h1>
+    {% if projects %}
+    <ul>
+        {% for project in projects %}
+        <li>
+            <strong>{{ project.title }}</strong> - {{ project.description }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No projects submitted yet.</p>
+    {% endif %}
+    <p>
+        <a href="/create-project">Create a New Project</a> |
+        <a href="/greeting">Back to Greeting</a>
+    </p>
+</body>
+</html>

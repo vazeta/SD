@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project Result</title>
+</head>
+<body>
+    <h1>Project Created</h1>
+    <ul>
+        <li>ID: {{ project.id }}</li>
+        <li>Title: {{ project.title }}</li>
+        <li>Type: {{ project.type }}</li>
+        <li>Color: {{ project.color }}</li>
+        <li>Description: {{ project.description }}</li>
+        <li>Days: {{ project.days }}</li>
+        <li>Price: {{ project.price }}</li>
+        <li>Featured: {{ project.featured }}</li>
+        <li>Launch Date: {{ project.launchDate }}</li>
+    </ul>
+    <p>
+        <a href="/projects">View All Projects</a> |
+        <a href="/greeting">Back to Greeting</a>
+    </p>
+</body>
+</html>
