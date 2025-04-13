@@ -1,0 +1,6 @@
+{
+  "name": "5 - RRESTFull services - Python",
+	"image": "docker.io/python:3.13-slim",
+	"postCreateCommand": "pip install -r requirements.txt",
+  "runArgs": ["--network=host"]
+}

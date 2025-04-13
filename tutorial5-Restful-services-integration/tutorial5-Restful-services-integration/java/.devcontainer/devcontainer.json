@@ -1,0 +1,16 @@
+{
+  "name": "5 - RRESTFull services - Java",
+  "image": "docker.io/openjdk:25-jdk-slim",
+  "postCreateCommand": "apt-get update && apt-get install -y maven",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "containerEnv": {
+    "JAVA_OPTS": "-Xmx16g"
+  },
+  "runArgs": ["--network=host"]
+}
